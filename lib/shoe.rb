@@ -7,8 +7,7 @@ class Shoe
   end
  
   def cobble
-    @condition.each do |condition|
-    condition.sub("old", "new")
+    @condition = "new"
     end
     puts "Your shoe is as good as new!"
   end
